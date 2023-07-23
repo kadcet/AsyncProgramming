@@ -1,0 +1,5 @@
+1. Asynchronous Programiming Model (APM)
+2. Event-Based Asynchronous Pattern (EAP)
+3. Task-Based Asynchronous Pattern (TAP)
+
+TPL
