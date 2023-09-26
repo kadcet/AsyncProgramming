@@ -2,4 +2,22 @@
 2. Event-Based Asynchronous Pattern (EAP)
 3. Task-Based Asynchronous Pattern (TAP)
 
-TPL
+TPL=> task parallel library
+
+Thread :Kanal
+Task: Görev
+
+
+Programým içerisinde birden fazla Thread (kanal) açýp her kanala bir iþ (Task) verebiliyorum.
+Bu verdiðim iþler diðerlerinde baðýmsýz ve onlarla paralel çalýþabiliyor.
+
+Asenkron programlama içerisinde Multithread programlama kavramýný içeren bir yapý ortaya çýkar.
+Multithread Programlama => Temel olarak kodun çalýþma sýrasýnda bloklanmama(bir iþ bitmeden bir iþin baþlamamasý) iþ bitinceye kadar diðeri bloklanmýþ olur.
+Bunun yapýlmamasý prensibine dayanan prensiptir. Bu bloklanmama olayýný gerçekleþtirmek için Task yapýlarýný kullanýyoruz.
+Uygulama geliþtirirken birden fazla thread içeren bir yapý olsun bu yapýnýn içerisinde bu thread larýn ürettiði sonuçlara görede bazý iþlemler
+yaptýðýmýzý düþünelim.Bu Threadlarý bekleyip gelen sonuçlara göre iþlem yapan ve uygulamayý kilitlenmeden çalýþmasýný saðlayan yapý asenkron prgramlamanýn mantýðýný oluþturur.
+
+Tek thread içerisinde Tasklar var.
+
+
+
