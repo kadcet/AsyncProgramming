@@ -39,7 +39,7 @@
 		static Task<byte[]> DowloandFile(string url)
 		{
 			Thread.Sleep(3000);
-			// Bir adres gelsin. Ben o adresteki dosyayı okuyayım.Burdan Byte array olarak geriye döneyim
+			// Bir adres gelsin. Ben o adresteki dosyayı okuyayım.Burdan Byte array olarak geriye  döneyim
 			return File.ReadAllBytesAsync(url);
 		}
 
